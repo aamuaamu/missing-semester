@@ -82,7 +82,7 @@ The first line might be tricky to get working. It’s helpful to know that `#` s
    ```bash
    cat /sys/class/power_supply/BAT1/capacity
    ```
-   (see [6] for reference.)
+   (See [6] for reference.)
    
  Reference:
  1. On `touch`: https://www.geeksforgeeks.org/touch-command-in-linux-with-examples/

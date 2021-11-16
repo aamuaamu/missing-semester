@@ -6,6 +6,7 @@
     ```bash
     mkdir /tmp/missing
     ```
+    (See [9] for a reference of `/tmp`.)
 
 3. Look up the touch program. The man program is your friend.
 
@@ -93,3 +94,4 @@ The first line might be tricky to get working. It’s helpful to know that `#` s
  6. How to check the power status: https://www.linuxjournal.com/content/how-check-battery-status-using-linux-command-line
  7. On `|`: https://www.redhat.com/sysadmin/pipes-command-line-linux
  8. On `tail`: https://man7.org/linux/man-pages/man1/tail.1.html
+ 9. On `/tmp`: https://www.fosslinux.com/41739/linux-tmp-directory-everything-you-need-to-know.htm

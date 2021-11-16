@@ -91,5 +91,5 @@ The first line might be tricky to get working. It’s helpful to know that `#` s
  4. On `chmod`: https://linuxize.com/post/chmod-command-in-linux/
  5. Get the last-modified date of file: https://superuser.com/questions/737247/get-last-modified-date-of-file-in-linux
  6. How to check the power status: https://www.linuxjournal.com/content/how-check-battery-status-using-linux-command-line
- 7. On '|': https://www.redhat.com/sysadmin/pipes-command-line-linux
- 8. On 'tail': https://man7.org/linux/man-pages/man1/tail.1.html
+ 7. On `|`: https://www.redhat.com/sysadmin/pipes-command-line-linux
+ 8. On `tail`: https://man7.org/linux/man-pages/man1/tail.1.html

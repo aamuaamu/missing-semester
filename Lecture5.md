@@ -25,3 +25,7 @@
       ```
 2. Run `history | awk '{$1="";print substr($0,2)}' | sort | uniq -c | sort -n | tail -n10` to get your top 10 most used commands and consider writing shorter aliases for them. Note: this works for Bash; if you're using ZSH, use `history 1` instead of just `history`.
 
+      **Solution**
+      ```bash
+      alias topcmd="history | awk '{$1="";print substr($0,2)}' | sort | uniq -c | sort -n | tail -n10"
+      ```

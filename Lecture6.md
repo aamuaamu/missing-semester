@@ -8,16 +8,22 @@
     **Solution**
     ```bash
     git clone https://github.com/missing-semester/missing-semester
+    ```
+    ```bash
     cd missing-semester
     git log --all --graph --decorate --oneline > ~/history.txt
+    ```
+    ```bash
     git log -p README.md
+    ```
+    ```bash
     git blame _config.yml | grep "collections:" | sed -E 's/([^ ]*) .*$/\1/' | git show 
     ```
    - The visualization of the version history is in ~/history.txt.
    - (As of November 23, 2021) Anish Athalye is the last person to modify README.md on July 27, 2020.
    - The last commit message associated with the last midificaiton to the 'collections:` line of `_config.yml` is: Merge branch 'ds2606/master'
 
-3. One common mistake when learning Git is to commit large files that should not be managed by Git or adding sensitive information. Try adding a file to a repository, making some commits and then deleting that file from history (you may want to look at this).
+3. One common mistake when learning Git is to commit large files that should not be managed by Git or adding sensitive information. Try adding a file to a repository, making some comits and then deleting that file from history (you may want to look at this).
 
 4. Clone some repository from GitHub, and modify one of its existing files. What happens when you do git stash? What do you see when running git log --all --oneline? Run git stash pop to undo what you did with git stash. In what scenario might this be useful?
 
